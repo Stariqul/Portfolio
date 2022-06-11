@@ -44,7 +44,12 @@ const Project = () => {
             />
           </figure>
           <div class="card-body">
-            <p>Click the button to listen on Spotiwhy app.</p>
+            <p>
+              In this project user can find some reviews on the basis of which a
+              user can buy the best products. In this project there are charts
+              also in the dashboard. There is also a blog section. I use react
+              router dom for routing
+            </p>
             <div class="card-actions">
               <button class="btn btn-primary">
                 <a href="https://sparkly-zabaione-4af820.netlify.app/">
@@ -65,7 +70,11 @@ const Project = () => {
             <img src="https://i.ibb.co/Mfbqtmb/Background-11.png" alt="Album" />
           </figure>
           <div class="card-body">
-            <p>Click the button to listen on Spotiwhy app.</p>
+            <p>
+              This project is a kind of calculator. In this project a user can
+              calculate his montly expenses from his incomes and also can be
+              able to find how much amount he can save
+            </p>
             <div class="card-actions ">
               <button class="btn btn-primary">
                 <a href="https://determined-ptolemy-e6140c.netlify.app/">
