@@ -44,7 +44,9 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
-          <a class="btn btn-ghost normal-case text-xl">Portfolio</a>
+          <Link to="/" class="btn btn-ghost normal-case text-xl bg-primary">
+            Portfolio
+          </Link>
         </div>
         <div class="navbar-center hidden lg:flex">
           <ul class="menu menu-horizontal p-0">
@@ -56,8 +58,11 @@ const Navbar = () => {
               <Link to="about">About</Link>
             </li>
             <li>
+              <Link to="blog">Blogs</Link>
+            </li>
+            <li>
               <a
-                class="btn text-white"
+                class="btn text-white bg-primary"
                 href="https://drive.google.com/file/d/1fWaFtx8tgvxefoP39jlX0fEcrdbmg_EB/view"
               >
                 My Resume

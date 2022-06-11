@@ -19,7 +19,7 @@ const Contact = () => {
       .catch((err) => console.log(err));
   }
   return (
-    <div class="container mx-auto w-1/3 border border-black-500 bg-white">
+    <div class="container mx-auto w-1/3 border border-black-500 bg-white mt-5">
       <div class="p-5 space-y-5 shadow-xl">
         <h3 class="text-center bg-primary text-3xl">Contact me</h3>
         <form onSubmit={sendEmail}>
